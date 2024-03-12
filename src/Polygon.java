@@ -1,7 +1,7 @@
-public class Poligon {
-	private Point[] vert;
+public class Polygon {
+	private final Point[] vert;
 	
-	public Poligon(Point[] vs) {
+	public Polygon(Point[] vs) {
 		vert = vs;
 	}
 	

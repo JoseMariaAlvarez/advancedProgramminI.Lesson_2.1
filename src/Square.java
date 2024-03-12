@@ -1,4 +1,4 @@
-public class Square extends Poligon {
+public class Square extends Polygon {
 	private double side;
 
 	public Square(Point[] vs){

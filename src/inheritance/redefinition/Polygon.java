@@ -1,3 +1,5 @@
+package inheritance.redefinition;
+
 public class Polygon {
 	private final Point[] vert;
 	

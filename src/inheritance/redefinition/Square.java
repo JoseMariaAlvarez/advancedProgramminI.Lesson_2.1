@@ -1,3 +1,5 @@
+package inheritance.redefinition;
+
 public class Square extends Polygon {
 	private double side;
 

@@ -1,3 +1,5 @@
+package dynamicBinding.points;
+import inheritance.Point;
 
 public class EnclosePointTest {
 

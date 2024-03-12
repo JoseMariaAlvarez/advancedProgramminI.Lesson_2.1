@@ -1,3 +1,4 @@
+package inheritance.redefinition;
 
 public class PoligonSquareTest {
 
@@ -6,7 +7,7 @@ public class PoligonSquareTest {
 				                new Point(1.0, 1.0), new Point(1.0, 0.0)}; 
 		Square sqr = new Square(sqrVertices);
 
-		Double per = sqr.perimeter(); // method of class Poligon
+		double per = sqr.perimeter();
 		System.out.println(per);
 
 

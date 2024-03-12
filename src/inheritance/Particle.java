@@ -1,3 +1,4 @@
+package inheritance;
 public class Particle extends Point {
 	final static private double G = 6.67e-11;
 	private double mass; 

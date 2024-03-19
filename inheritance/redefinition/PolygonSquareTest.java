@@ -1,3 +1,4 @@
+package inheritance.redefinition;
 
 public class PolygonSquareTest {
 

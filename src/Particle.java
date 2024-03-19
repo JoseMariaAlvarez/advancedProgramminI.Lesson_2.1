@@ -8,8 +8,9 @@ public class Particle extends Point {
 	}
 
 	public Particle(double m) {
-		this(0, 0, m);
-		mass = m; 
+		// this(0.0, 0.0, m);
+		super();
+		mass = m;
 	}
 	public void mass(double m) { mass = m; }
 

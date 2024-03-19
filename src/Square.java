@@ -8,7 +8,13 @@ public class Square extends Polygon {
 	
 	@Override
 	public double perimeter() {
+		System.out.println("Square perimeter");
 		return 4.0 * side;
+	}
+	
+	@Override
+	public String toString() {
+		return "(" + side + ")"; 
 	}
 	
 }

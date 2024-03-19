@@ -1,4 +1,4 @@
-class Point {
+public class Point {
 	private double x, y;
 	public Point() { x = y = 0.0; }
 	public Point(double a, double b) { x = a; y = b; }

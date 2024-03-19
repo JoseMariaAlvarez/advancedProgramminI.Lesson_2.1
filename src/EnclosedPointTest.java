@@ -1,9 +1,11 @@
 
-public class EnclosePointTest {
+public class EnclosedPointTest {
 
 	public static void main(String[] args) {
+		try {
 		EnclosedPoint ep = new EnclosedPoint (new Point (0.0, 0.0),
 				new Point (5.0, 4.0));
+		
 		
 		System.out.println(ep.width() + 
 				    " "  + ep.height());
@@ -26,6 +28,9 @@ public class EnclosePointTest {
 		
 		System.out.println(pnt.abscissa() + 
 				     " " + pnt.ordinate());
+		} catch (RuntimeException e) {
+			System.out.println(e.getMessage());
+		}
 	}
 
 }

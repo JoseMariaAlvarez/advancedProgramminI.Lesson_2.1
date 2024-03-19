@@ -6,6 +6,7 @@ public class Polygon {
 	}
 	
 	public double perimeter() { 
+		System.out.println("Polygon perimeter");
 		Point ant = vert[vert.length-1];
 		double res = 0.0;
 		for(Point pnt : vert) {

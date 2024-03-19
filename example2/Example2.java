@@ -1,4 +1,4 @@
-package example2;
+package dynamicBinding.example2;
 
 class B {							
 	public void m() {							

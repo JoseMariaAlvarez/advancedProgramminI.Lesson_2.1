@@ -1,4 +1,4 @@
-package example1;
+package dynamicBinding.example1;
 
 class A {
 	char c = 'A'; // instance variable

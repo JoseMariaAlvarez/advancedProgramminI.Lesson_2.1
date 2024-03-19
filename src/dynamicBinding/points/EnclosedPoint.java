@@ -1,3 +1,5 @@
+package dynamicBinding.points;
+import inheritance.Point;
 
 public class EnclosedPoint extends Point {
 	private Point cornerBL, cornerTR; 

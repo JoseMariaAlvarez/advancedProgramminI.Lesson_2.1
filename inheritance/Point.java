@@ -28,4 +28,9 @@ public class Point {
 		return Math.sqrt(Math.pow(x - pnt.x, 2.0) +
 				Math.pow(y - pnt.y, 2.0)); 
 	}
+	@Override
+	public String toString() {
+		return "Point [x=" + x + ", y=" + y + "]";
+	}
+	
 }

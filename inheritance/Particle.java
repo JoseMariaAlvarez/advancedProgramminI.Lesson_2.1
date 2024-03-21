@@ -21,4 +21,9 @@ public class Particle extends Point {
 		double d = this.distance(part);
 		return G * mass * part.mass() / (d * d);
 	}
+	
+	@Override
+	public String toString() {
+		return super.toString() + " mass : " + mass;
+	}
 }

@@ -23,6 +23,11 @@ public class UserOfPoints {
 
 		Point p3 = null;
 		part2 = p3;
+		
+		pnt1 = new Particle(9.0);
+		
+		Particle part3 = (Particle)pnt1;
+		System.out.println(part3.attraction(part1));
 	}
 
 }
